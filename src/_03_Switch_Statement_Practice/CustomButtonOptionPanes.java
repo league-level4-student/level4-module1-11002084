@@ -12,6 +12,30 @@ public class CustomButtonOptionPanes {
 		String choice = options[input];
 		
 		//use a switch statement to do something cool for each option
-		
+		switch(choice) {
+		case "Sunday":
+			System.out.println("That's the day of the week this program was completed!");
+			break;
+		case "Monday":
+			System.out.println("NOOOOOOOOOOO");
+			break;
+		case "Tuesday":
+			System.out.println("The weekend is so far away");
+			break;
+		case "Wednesday":
+			System.out.println("It's hump day! Woop woop!");
+			break;
+		case "Thursday":
+			System.out.println("It's Friday-Eve");
+			break;
+		case "Friday":
+			System.out.println("IT'S FRIDAY!!");
+			break;
+		case "Saturday":
+			System.out.println("Weekend Homework :(");
+			break;
+		default:
+			System.out.println("Not quite sure how you managed to click a button that's not a day of the week but ok");
+		}
 	}
 }
